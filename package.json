@@ -1,27 +1,18 @@
 {
-	"name": "watershed",
-	"version": "0.4.0",
-	"description": "simple websockets (RFC6455) client and server",
-	"main": "./lib/watershed.js",
-	"author": "Joshua M. Clulow <jmc@joyent.com>",
-
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/joyent/node-watershed.git"
-	},
-
-	"bugs": {
-		"url": "https://github.com/joyent/node-watershed/issues"
-	},
-
-	"dependencies": {
-		"readable-stream": "1.0.2",
-		"dtrace-provider": "~0.8"
-	},
-	"devDependencies": {
-		"istanbul": "^0.4.0",
-		"tape": "^4.2.2"
-	},
-
-	"engines": [ "node >=0.8.0" ]
+  "name": "@metastack/watershed",
+  "version": "1.0.0",
+  "description": "Simple Websockets (RFC6455) Client and Server",
+  "main": "./lib/watershed.js",
+  "author": "Joshua M. Clulow <jmc@joyent.com>",
+  "repository": "https://github.com/mdbarr/watershed.git",
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
+  "scripts": {
+    "lint": "eslint lib tests",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^26.1.0"
+  }
 }
