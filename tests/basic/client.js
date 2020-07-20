@@ -1,7 +1,5 @@
 #!/usr/bin/env node
-/*
- * Copyright 2016 Joyent, Inc.
- */
+'use strict';
 
 const http = require('http');
 const Watershed = require('../../lib/watershed').Watershed;
