@@ -1,4 +1,4 @@
-# @metastack/watershed
+# @hyperingenuity/watershed
 
 A simple implementation of WebSockets for use with node.js 'http'-style web
 server or client.  Deals only with [RFC6455][1], ignoring any Browser-specific

@@ -1,5 +1,5 @@
 {
-  "name": "@metastack/watershed",
+  "name": "@hyperingenuity/watershed",
   "version": "1.0.0",
   "description": "Simple Websockets (RFC6455) Client and Server",
   "main": "./lib/watershed.js",
