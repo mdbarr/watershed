@@ -6,8 +6,8 @@
   "author": "Joshua M. Clulow <jmc@joyent.com>",
   "repository": "https://github.com/mdbarr/watershed.git",
   "devDependencies": {
-    "eslint": "^7.5.0",
-    "jest": "^26.1.0"
+    "eslint": "^7.6.0",
+    "jest": "^26.2.2"
   },
   "scripts": {
     "lint": "eslint lib tests",
